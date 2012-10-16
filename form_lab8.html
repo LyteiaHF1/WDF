@@ -121,15 +121,20 @@
 			</li>
 			<li>
 			<label>Favorite Player</label>
-			<input placeholder="Derek Jeter"></li>
+			<input type="text" placeholder="Derek Jeter"></li>
 			<li>
 			<label>Favorite Postion</label>
-			<input placeholder="Shortstop" ></li>
+			<input type="text" placeholder="Shortstop" ></li>
 			</ol>
+			<p>
       	<label>What is your favorite type of fan gear</label><br />
-        <input type="checkbox" name="clothing" value="Jersey" />Jerseys<br />
-        <input type="checkbox" name="clothing" value="T-shirts" />T-shirts<br />
-        <input type="checkbox" name="clothing" value="Hats" />Hats<br />
+        <input type="checkbox" name="clothing" id="jersey" />
+        <label for="jersey">Jerseys</label><br /> 
+        <input type="checkbox" name="clothing" id="t-shirts" />
+        <label for="t-shirts">T-shirts</label><br />
+        <input type="checkbox" name="clothing" id="hats" />
+        <label for="hats">Hats</label><br />
+      </p>
       </fieldset>
 		<button type=submit>Submit</button>
     </form>
